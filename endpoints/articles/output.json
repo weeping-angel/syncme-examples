@@ -1,0 +1,23 @@
+{
+    "articles": [
+      {
+        "id": "acf1a95f0d72",
+        "published_at": "2023-06-14T20:33:00Z",
+        "title": "A Comprehensive Guide to the World of VeeFriends Cards"
+      },
+      {
+        "id": "a56cc881cfb2",
+        "published_at": "2023-06-09T19:10:43Z",
+        "title": "VeeFriends Roundup: GaryVee and VeeFriends are Hitting NSCC, Behind the PFP Launches, Eruption 3…"
+      },
+
+      .
+      .
+      .
+      
+    ],
+    "paging_options": {
+      "next": "WyJiNzNmMjIxOWI3MWEiLCAidmVlZnJpZW5kcyIsICIyMDIzLTA0LTI1VDIxOjU5OjM3WiJd",
+      "count": 30
+    }
+  }
