@@ -1,0 +1,68 @@
+{
+    "markdown": "
+        ### DevOps
+        
+        # AWS CloudFront With S3 Bucket Vs. Github Pages
+        
+        ### Deploying fast, future-proof static websites with good SEO optimization
+        
+        ![Image by the Author](https://miro.medium.com/1*ChSrge30hO-VQ5uUVr0T8Q.png)
+        
+        Recently I started building a website, which was more like a landing page at the beginning, with almost no functionality - A typical static website, I mean.
+        
+        I was not sure where it would go in future: Will it remain a static website? Or will I convert it into a dynamic one as the traffic grows? What if I require new functionalities with a backend? Such as connecting it to a database to show personalized content. In short, **feasibility of going from static to dynamic**.\n\nAfter doing a lot of research on where to deploy my website, I found 2 candidates with a lot of promises - **AWS CloudFront with S3 Bucket** and **Github Pages**.
+        
+        ---
+        
+        ## What does a good website needs?
+        
+        There are 5 things that any website must have for the security and SEO purposes:
+        
+        - SSL Certificate (Support for HTTPS)
+        
+        - Integration with a Content Delivery Network (CDN)
+        
+        - Custom domain management
+        
+        - Error page handling
+        
+        - Speed!!!
+        
+        Fortunately, for static websites, both AWS and Github Pages provides all the above-mentioned features.
+        
+        One one hand, we've multiple AWS services with a lot of features and controls like AWS Certificate Manager for SSL, CloudFront for fast CDN distribution, Route53 for all DNS management, and S3 storage for robust static website hosting.
+        
+        And on the other hand, we've Github pages that abstracts out most of the details and provide all the functionalities at one place, in the repository's settings, and uses standard naming conventions (like using `404.html`) to achieve certain behavior.
+        
+        Obviously, Github pages are far more simpler to setup and configure than setting up all of the AWS architecture from scratch. If you've a well-defined CloudFormation template ready with you, then that's another story.
+        
+        ---
+        
+        ## What Should you choose?
+        
+        If you want to **quickly deploy** a simple static website **for free**, with no scope of it being dynamic in the future, then use Github Pages. The only downside is, you'll have to make your repository public. If you don't want to open source your repo, there are a few workarounds. Like making 2 repositories - one private and one public - and using Github Actions to commit production files from private to public repo.
+        
+        Else, if you've some money to spend and want to be **future-proof** with more **control over the entire architecture**, then use AWS services. **Advance logging** functionalities will help you debug SEO issue that others cannot even spot.
+        
+        Also, with AWS, if you plan switch to a **dynamic website later in the future**, you'll not have to go through setting up the CDN and SSL once again. Just plug your server (most probably an EC2 instance) instead of S3 bucket to CloudFront, and you're good to go!
+        
+        This switch is not possible with Github pages (At least not yet).\n\nHope this helped you to clarify your decision.
+        
+        _Thanks for reading & have a nice day!_
+        
+        ---
+        
+        _If you enjoy reading these stories, then I'm sure you would love to be a **[Medium paying member](https://nishu-jain.medium.com/membership).** It's only $5 per month, and you'll get unlimited access to thousands and thousands of stories and writers. You can support me by **[signing up using this link](https://nishu-jain.medium.com/membership)**_, _and I'll earn a small commission that will help me grow and publish more stories like this._
+        
+        ---
+        
+        **Further reading**
+        
+        > [**How I Accidentally Hacked a Government App By Recognizing a Silly Pattern**](https://pub.towardsai.net/how-i-accidentally-hacked-a-government-app-by-recognizing-a-silly-pattern-4bb5cd293022)
+        
+        > [**10 Game-changing AI Breakthroughs Worth Knowing About**](https://pub.towardsai.net/10-game-changing-ai-breakthroughs-worth-knowing-about-b2076afc4930)
+        
+        > [**How I Won a National Level ML Competition with my Unique \"Informal Approach\"**](https://towardsdatascience.com/how-i-won-a-national-level-ml-competition-with-my-unique-informal-approach-e86fd95532fd)
+        
+        _More content at **[PlainEnglish.io](https://plainenglish.io/)**. Sign up for our **[free weekly newsletter](http://newsletter.plainenglish.io/)**. Follow us on **[Twitter](https://twitter.com/inPlainEngHQ)** and **[LinkedIn](https://www.linkedin.com/company/inplainenglish/)**. Join our **[community Discord](https://discord.gg/GtDtUAvyhW)**._"
+  }

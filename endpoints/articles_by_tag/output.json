@@ -1,0 +1,48 @@
+{
+    "articles": [
+      {
+        "id": "bcf2a96f0e72",
+        "title": "A tale of two cities",
+        "subtitle": "A detailed book review",
+        "published_at": "2022-05-17T12:13:00Z",
+        "claps": 257,
+        "voters": 10,
+        "reading_time": 4.5772054964143720,
+        "word_count": 1276,
+        "image_url": "https://miro.medium.com/0*VKLFGUZaUaaM0uMx",
+        "tags": [
+            "books",
+            "fiction",
+            "writing",
+            "literature"
+        ]
+      },
+      {
+        "id": "e56dc881efa2",
+        "title": "the prince",
+        "subtitle": "Most controversial book in history",
+        "published_at": "2022-03-10T09:34:00Z",
+        "claps": 401,
+        "voters": 16,
+        "reading_time": 2.4672955974842767,
+        "word_count": 433,
+        "image_url": "https://miro.medium.com/0*VKFGGUZaUaaM1uM2",
+        "tags": [
+            "strategy",
+            "books",
+            "mindset",
+            "psychology",
+            "self-improvement"
+        ]
+      },
+
+      .
+      .
+      .
+
+    ],
+    "paging_options": {
+      "next": "f66de891eab2",
+      "count": 7
+    }
+  }
