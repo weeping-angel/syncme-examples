@@ -2,17 +2,45 @@
     "id": "43fec175d625",
     "title": "Rich Dad, Poor Dad",
     "subtitle": "A comprehensive summary of the book",
-    "published_at": "2022-04-11T11:22:19Z",
+    "author": "Nishu Jain",
+    "publication": "books-and-literature",
+    "published_at": {
+        "year": 2023,
+        "month": 8,
+        "day": 25,
+        "hour": 20,
+        "minute": 15,
+        "second": 45,
+        "weekday": 4
+    },
+    "last_modified_at": {
+        "year": 2023,
+        "month": 8,
+        "day": 25,
+        "hour": 20,
+        "minute": 15,
+        "second": 45,
+        "weekday": 4
+    },
+    "published_at_timestamp": 1692994545096,
+    "last_modified_at_timestamp": 1692994545096,
     "image_url": "https://miro.medium.com/1*j3Dpjq-h9Zt9yjvvd4HL7Q.jpeg",
+    "url": "https://medium.com/books-and-literature/rich-dad-poor-dad-43fec175d625",
     "word_count": 607,
     "claps": 50,
     "voters": 7,
     "reading_time": 3.4238993710691825,
+    "responses_count": 0,
     "tags": [
       "books",
       "self-improvement",
       "life-lessons",
       "money",
       "business"
-    ]
+    ],
+    "topics": [
+        "business",
+        "money"
+    ],
+    "lang": "en"
   }
